@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>最後的甜點師：黑童話的隱喻</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>最後的甜點師</h1>
+    <p>一場可以吃下去的黑童話夢境</p>
+    <nav>
+      <a href="#story">故事主線</a>
+      <a href="#index">湯點圖鑑</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="story">
+      <h2>主線故事章節</h2>
+      <p>
+        你走進房間，空氣中飄來一股 <span class="trigger-word" data-id="1">奶昔</span> 味。
+        鏡子裡的你浮現不清晰的倒影，你說不出來那股感覺是什麼——
+        <span class="trigger-word" data-id="4">擦掉錯誤</span> 的味道。
+      </p>
+      <p>
+        你坐下來，咬了一口 <span class="trigger-word" data-id="6">水晶糖鞋</span>，忽然之間你說話更小心，
+        表情更剛好，笑容更讓人喜歡，但你已經不記得原來的自己長什麼樣。
+      </p>
+      <p>
+        <span class="trigger-word" data-id="20">泡芙</span> 的味道，讓你突然想起小時候沒說完的那句話。
+        「沒事啦」成了你最後一次試圖解釋的理由。
+      </p>
+    </section>
+
+    <section id="overlay" class="hidden">
+      <div id="dream-card">
+        <button id="close-card">×</button>
+        <div id="dream-content"></div>
+      </div>
+    </section>
+
+    <section id="index">
+      <h2>黑童話湯點圖鑑</h2>
+      <div class="card-grid" id="dream-list">
+        <!-- JavaScript 產生卡片 -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 黑童話甜點地獄計畫 by bluewolf</p>
+  </footer>
+</body>
+</html>
